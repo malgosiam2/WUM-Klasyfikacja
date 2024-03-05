@@ -1,6 +1,6 @@
 # 4. Stellar Classification Dataset - SDSS17 (kaggle.com) 
 
-[Dane]([https://github.com/MI2-Education/2023Z-DataVisualizationTechniques](https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17))
+[Dane](https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17)
 
 Eksploracja danych: Analizuj cechy gwiazd, takie jak temperatura, magnituda, prędkość radialna.
 Inżynieria cech: Opracuj cechy, które mogą pomóc w klasyfikacji typów gwiazd.
