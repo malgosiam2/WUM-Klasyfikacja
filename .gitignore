@@ -1,0 +1,7 @@
+# ignore files
+*.hic
+*.Rhistory
+
+# igrone directories
+PersonalCopy/
+.ipynb_checkpoints/

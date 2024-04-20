@@ -1,0 +1,19 @@
+Numerowane są komórki zawierające kod w porządku od początku do końca pliku.
+
+feature_engineering.ipynb
+1. X_train.csv (wczytywanej w komórce 1.) nie ma kolumny CURRENT_ACCOUNT, która jest później wywoływana (w komórce 4 i 5), co powoduję wyrzucenie błędu.
+2. Przed komórką 7. były wykorzystywane kolumny z ramek orig_###.csv, a po komórce 7. były wykorzystywane kolumny z ramki X_train.csv. 
+Kod wymaga wczytania różnych ramek danych, jednak wczytywana jest tylko jedna ramka danych.
+3. Jako cechy o dużym znaczeniu dla modelu zostały wybrane LENGTH_RELATIONSHIP_WITH_CLIENT i AGE, jednak były też obecne inne cechy o większym znaczeniu niż AGE.
+Nie zostało wyjaśnione dlaczego tylko te dwie cechy są wyróżnione.
+4. W komórce 15 jest wczytywana ramka x_train.csv, a w komórce 16 jest zapisywana ramka X_train.csv. 
+Takiego typu nazewnictwo bywa mylące. Ponaddto niektóre komendy są nieczułe na wielkość liter,
+np. pd.read/write_csv traktują te ramki jak tę samą.
+5. Program traktuje x_train.csv i X_train.csv jako tę samą ramkę danych, więc błędem jest wczytywanie tej ramki danych w komórce 15,
+jej obróbka i zapis w komórce 16. Operacje wykonywane jednorazowo powinny być zakomentowane.
+
+modeling_validation.ipynb 
+6. W modeling_validation.ipynb nie zostały wczytane ramki danych (zmienne df i df_val są puste).
+7. W komórce 3 brakuje importu RandomForestClassifier, w 4. StratifiedKFold, w 5. accuracy_score.
+8. W komórce 8 jest omyłkowo wpisany x przy nawiasie.
+9. W komórce 10. i 11. jest używana biblioteka xgboost, choć nie ma o niej informacj w pliku requirements.txt.
