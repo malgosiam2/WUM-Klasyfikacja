@@ -19,12 +19,15 @@ A comprehensive analysis of the astronomical dataset, focusing on:
 ### 2. Feature Engineering (FE)
 - Selection of the most relevant features  
 - Creation of new features to improve model performance
+
 [Link to the FE notebook]([InzynieriaCech/budowa_krok_2_4_.ipynb))
 
 ### 3. Modeling
 Development and comparison of classification models. Includes hyperparameter tuning to optimize model accuracy and performance.
+
 [Link to the Modelling notebook]([ModelowanieIWalidacja/budowa_krok_3_4.ipynb))
 
 ### 4. Final Presentation
 A summary of key findings, model comparisons, and final results.  
+
 🎯 [Link to the final presentation](prezentacja_.wyników_.pptx)
