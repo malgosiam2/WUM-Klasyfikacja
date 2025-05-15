@@ -1,19 +1,30 @@
-# 4. Stellar Classification Dataset - SDSS17 (kaggle.com) 
+# Astronomical Object Classification
+## Goal
+To evaluate different machine learning models and techniques for effectively classifying astronomical objects, while learning key concepts of data analysis, feature engineering, and model evaluation.
 
-[https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17](https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17)
+Dataset: [https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17](https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17)
 
-Eksploracja danych: Analizuj cechy gwiazd, takie jak temperatura, magnituda, prędkość radialna.
+This project focuses on classifying astronomical objects into **stars**, **galaxies**, and **quasars** using machine learning techniques. It was developed as part of the *Introduction to Machine Learning* course.
 
-Inżynieria cech: Opracuj cechy, które mogą pomóc w klasyfikacji typów gwiazd.
+## Project Structure
 
-Modelowanie i walidacja: Zastosuj modele klasyfikacyjne do rozróżniania różnych typów gwiazd i waliduj je za pomocą technik takich jak krzyżowa walidacja.
+### 1. Exploratory Data Analysis (EDA)
+A comprehensive analysis of the astronomical dataset, focusing on:
+- Object identification methods  
+- Applied filters  
+- Distribution of right ascension and declination  
 
-| Nr zbioru danych| Nr Zespołu Budowy z listy| Nr Zespołu Walidacji z listy|
-| -------------------------- |-------------------------- |-------------------------- |
-| 1| 1| 4|
-| 2| 2| 5|
-| 3| 3| 6|
-| 4| 4| 7|
-| 5| 5| 1|
-| 1| 6| 2|
-| 2| 7| 3|
+[Link to the EDA notebook](EDA/budowa_krok_1_4_.ipynb)
+
+### 2. Feature Engineering (FE)
+- Selection of the most relevant features  
+- Creation of new features to improve model performance
+[Link to the FE notebook]([InzynieriaCech/budowa_krok_2_4_.ipynb))
+
+### 3. Modeling
+Development and comparison of classification models. Includes hyperparameter tuning to optimize model accuracy and performance.
+[Link to the Modelling notebook]([ModelowanieIWalidacja/budowa_krok_3_4.ipynb))
+
+### 4. Final Presentation
+A summary of key findings, model comparisons, and final results.  
+🎯 [Link to the final presentation](prezentacja_.wyników_.pptx)
